@@ -1,0 +1,58 @@
+export const bloodGroups = [
+  {
+    type: 'O+',
+    description: 'The most common blood type. O positive red blood cells can be given to Rh-positive patients of any blood type.',
+    canDonateTo: ['O+', 'A+', 'B+', 'AB+'],
+    canReceiveFrom: ['O+', 'O-'],
+    prevalence: 'Approximately 37% of the population (varies by region)',
+  },
+  {
+    type: 'O-',
+    description: 'Known as the universal red cell donor type. O negative red cells can be given to patients of any blood type in emergencies.',
+    canDonateTo: ['O+', 'O-', 'A+', 'A-', 'B+', 'B-', 'AB+', 'AB-'],
+    canReceiveFrom: ['O-'],
+    prevalence: 'Approximately 6% of the population (varies by region)',
+  },
+  {
+    type: 'A+',
+    description: 'A positive is among the most common blood types. A positive red cells can be given to A+ and AB+ patients.',
+    canDonateTo: ['A+', 'AB+'],
+    canReceiveFrom: ['A+', 'A-', 'O+', 'O-'],
+    prevalence: 'Approximately 34% of the population (varies by region)',
+  },
+  {
+    type: 'A-',
+    description: 'A negative red cells can be given to both A and AB patients, regardless of Rh factor.',
+    canDonateTo: ['A+', 'A-', 'AB+', 'AB-'],
+    canReceiveFrom: ['A-', 'O-'],
+    prevalence: 'Approximately 6% of the population (varies by region)',
+  },
+  {
+    type: 'B+',
+    description: 'B positive red cells can be given to B+ and AB+ patients.',
+    canDonateTo: ['B+', 'AB+'],
+    canReceiveFrom: ['B+', 'B-', 'O+', 'O-'],
+    prevalence: 'Approximately 9% of the population (varies by region)',
+  },
+  {
+    type: 'B-',
+    description: 'B negative red cells can be given to both B and AB patients, regardless of Rh factor.',
+    canDonateTo: ['B+', 'B-', 'AB+', 'AB-'],
+    canReceiveFrom: ['B-', 'O-'],
+    prevalence: 'Approximately 2% of the population (varies by region)',
+  },
+  {
+    type: 'AB+',
+    description: 'AB positive is the universal plasma donor type. AB positive individuals can receive red cells from any blood type.',
+    canDonateTo: ['AB+'],
+    canReceiveFrom: ['O+', 'O-', 'A+', 'A-', 'B+', 'B-', 'AB+', 'AB-'],
+    prevalence: 'Approximately 3% of the population (varies by region)',
+  },
+  {
+    type: 'AB-',
+    description: 'The rarest blood type. AB negative individuals can receive red cells from any Rh-negative blood type.',
+    canDonateTo: ['AB+', 'AB-'],
+    canReceiveFrom: ['O-', 'A-', 'B-', 'AB-'],
+    prevalence: 'Approximately 1% of the population (varies by region)',
+  },
+]

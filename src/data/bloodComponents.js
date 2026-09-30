@@ -1,0 +1,47 @@
+export const bloodComponents = [
+  {
+    id: 'red-cells',
+    name: 'Red Blood Cells',
+    shortName: 'Red Cells',
+    color: '#9B1C31',
+    role: 'Carry oxygen from the lungs to tissues throughout the body.',
+    lifespan: 'Approximately 120 days in circulation',
+    uses: [
+      'Treatment of anaemia and blood loss',
+      'Surgical procedures requiring transfusion',
+      'Trauma and emergency care',
+    ],
+    donation: 'Whole blood donation or dedicated red cell apheresis in some services.',
+    illustration: 'disc',
+  },
+  {
+    id: 'platelets',
+    name: 'Platelets',
+    shortName: 'Platelets',
+    color: '#5E0B18',
+    role: 'Help blood clot and stop bleeding at injury sites.',
+    lifespan: 'Approximately 5–7 days',
+    uses: [
+      'Cancer treatment support',
+      'Major surgery',
+      'Treatment of platelet disorders',
+    ],
+    donation: 'Apheresis platelet donation, which may take longer than whole blood donation.',
+    illustration: 'fragments',
+  },
+  {
+    id: 'plasma',
+    name: 'Plasma',
+    shortName: 'Plasma',
+    color: '#737373',
+    role: 'The liquid portion of blood that carries cells, nutrients, hormones, and proteins.',
+    lifespan: 'Frozen plasma can be stored for extended periods when properly preserved',
+    uses: [
+      'Treatment of clotting disorders',
+      'Burn and trauma patients',
+      'Immune deficiency conditions',
+    ],
+    donation: 'Plasma can be collected through apheresis or separated from whole blood donations.',
+    illustration: 'liquid',
+  },
+]
